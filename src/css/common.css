@@ -30,13 +30,25 @@
 
 
     #foodimage1 {
-        background-image:url("../images/food1.jpg");
+        background: url('../images/food1.jpg') no-repeat   center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
     }
     #foodimage2 {
-        background-image:url("../images/food2.jpg");
+        background: url('../images/food2.jpg') no-repeat   center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
     }
     #foodimage3 {
-        background-image:url("../images/food3.jpg");
+        background: url('../images/food3.jpg') no-repeat   center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
     }
 
 
