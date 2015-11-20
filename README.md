@@ -1,6 +1,8 @@
 ### RRS Project
 
 This is the ui module for the Project Restaurant Reservation System.
+Responsive design but targeted for desktop with resolution 1600 * 900 and below, iPad and iPad mini, google nexus 10.
+For tablets both landscape and portrait mode. Supports and tested on browsers: Chrome, Firefox and IE.
 
 ###
 

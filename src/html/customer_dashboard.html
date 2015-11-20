@@ -17,6 +17,10 @@
         $(document).ready(function(){
             $( '#editMenu' ).click();
             $( '#createMenu' ).click();
+
+            $(document).on("click","#generate_confirmation",function(){
+                generateConfirmation();
+            });
         });
 
     </script>
@@ -30,10 +34,11 @@
 
         <!-- container div for the menu -->
 
-        <div class="container">
+        <div class="container portraitMenuContainer">
             <nav style="border-top-left-radius: 5px;border-top-right-radius: 5px;"class="navbar navbar-default" role="navigation" id="topmenu">
                 <ul class="nav navbar-nav">
                     <li id="liMenu" class="dropdown">
+
                         <a id ="createMenu" href="#" data-toggle="collapse" data-target="#create">Create</a>
                     </li>
                     <li class="dropdown">
@@ -45,7 +50,7 @@
 
         <!-- container div for the menu content -->
 
-        <div class="container">
+        <div class="container portraitMenuContainer">
             <nav class="navbar navbar-default" role="navigation" id="submenu">
 
                 <!-- nav div for the create content -->
@@ -87,7 +92,9 @@
                             </div>
                             <div class="form-group">
                                 <div class="col-sm-offset-6 col-xs-offset-6 col-md-offset-6 col-lg-offset-6 col-sm-10 co-xs-10 col-md-10 col-lg-10">
-                                    <button type="submit" class="btn btn-info" onclick="generateConfirmation()">Create</button>
+
+                                    <button id ="generate_confirmation" class="btn btn-info">Create</button>
+
                                 </div>
                             </div>
                         </form>
