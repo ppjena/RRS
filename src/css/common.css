@@ -1,0 +1,88 @@
+.menu-div{
+    margin-top:5%;
+    left:5%;
+    background: -webkit-linear-gradient(#204d74, #a6e1ec); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#204d74, #a6e1ec); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#204d74, #a6e1ec); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#204d74, #a6e1ec); /* Standard syntax */
+    border: 2px solid black;
+    border-radius: 5px;
+    width:90%;
+    height:530px;
+    opacity: 0.9;
+    filter: alpha(opacity=60);
+    position:absolute;
+}
+    .container_body {
+        width: 100%;
+        position:fixed;
+        padding: 0px;
+        font-weight:bold;
+    }
+
+    .carousel { z-index: -99; }
+    .carousel .item {
+        width: 100%;
+        height: 667px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+
+    #foodimage1 {
+        background-image:url("../images/food1.jpg");
+    }
+    #foodimage2 {
+        background-image:url("../images/food2.jpg");
+    }
+    #foodimage3 {
+        background-image:url("../images/food3.jpg");
+    }
+
+
+.navbar {
+    margin-top:2%;
+    border-radius:0;
+    margin-bottom:0;
+
+}
+
+#submenu {
+    background-color: #e7e7e7;
+    margin-top:0;
+    height:430px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.collapsing {
+    display:none;
+}
+
+.row-centered {
+    text-align:center;
+    margin-top:2%;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    text-align:left;
+
+}
+
+
+#well2, #assignReserveList {
+    height: 240px;
+    width:100%;
+    margin-bottom: 0;
+    overflow-y: scroll;
+    position:absolute;
+}
+
+#viewSeatingList, #contactListDiv, #assignTablesListDiv, #changeTableListDiv {
+    height: 370px;
+    width:100%;
+    margin-bottom: 0;
+    overflow-y: scroll;
+    position:absolute;
+}
